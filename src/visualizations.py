@@ -1,45 +1,26 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
-
-
 def seasonal_profit_plot(df):
-    """
-    Plot average profit per hectare by season.
-    """
-
     plt.figure(figsize=(8, 5))
-
     sns.barplot(
         data=df,
         x="Season",
         y="Profit_per_Hectare_INR",
         estimator="mean",
-        errorbar=None
-    )
-
+        errorbar=None)
     plt.axhline(
         y=0,
         linestyle="--",
-        linewidth=1
-    )
-
+        linewidth=1)
     plt.title(
         "Average Profit per Hectare Across Seasons"
     )
     plt.xlabel("Season")
     plt.ylabel("Profit per Hectare (INR)")
-
     plt.tight_layout()
     plt.show()
-
-
 def seasonal_water_efficiency_plot(df):
-    """
-    Plot average water efficiency by season.
-    """
-
     plt.figure(figsize=(8, 5))
-
     sns.barplot(
         data=df,
         x="Season",
@@ -47,44 +28,33 @@ def seasonal_water_efficiency_plot(df):
         estimator="mean",
         errorbar=None
     )
-
     plt.title(
         "Average Water Efficiency Across Seasons"
     )
     plt.xlabel("Season")
     plt.ylabel("Water Efficiency")
-
     plt.tight_layout()
     plt.show()
 
 
 def crop_profit_plot(crop_summary):
-    """
-    Plot average profit per hectare by crop.
-    """
-
     plt.figure(figsize=(10, 6))
-
     sns.barplot(
         data=crop_summary.reset_index(),
         x="Crop",
         y="Average_Profit_per_Hectare_INR"
     )
-
     plt.axhline(
         y=0,
         linestyle="--",
         linewidth=1
     )
-
     plt.xticks(rotation=45)
-
     plt.title(
         "Average Profit per Hectare by Crop"
     )
     plt.xlabel("Crop")
     plt.ylabel("Profit per Hectare (INR)")
-
     plt.tight_layout()
     plt.show()
 
