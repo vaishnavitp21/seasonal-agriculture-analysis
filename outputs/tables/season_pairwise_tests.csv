@@ -1,0 +1,4 @@
+Season A,Season B,U Statistic,p-value,Significant_at_5pct
+Kharif,Rabi,1608691.0,1.772926589348272e-08,True
+Kharif,Zaid,663232.0,1.0808302112991442e-20,True
+Rabi,Zaid,560575.0,7.35568995327891e-09,True

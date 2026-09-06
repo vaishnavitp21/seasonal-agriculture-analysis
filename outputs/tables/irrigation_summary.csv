@@ -1,0 +1,5 @@
+Irrigation_Method,Number_of_Farms,Average_Yield_Tonnes_Ha,Average_Profit_per_Hectare_INR,Average_Water_Used_m3,Average_Water_Efficiency
+Drip,915,6.58,25606.9,5918.75,6.27
+Sprinkler,734,5.16,12635.01,6208.26,4.67
+Rainfed,1041,4.6,9481.02,3549.55,7.56
+Flood,1310,4.86,8890.04,8026.47,3.44

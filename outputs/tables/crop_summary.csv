@@ -1,0 +1,9 @@
+Crop,Number_of_Farms,Average_Yield_Tonnes_Ha,Average_Profit_per_Hectare_INR,Average_Water_Efficiency,Average_Disease_Risk_pct
+Sugarcane,305,46.64,97169.92,30.48,45.4
+Chilli,412,1.54,92123.09,2.95,46.06
+Cotton,508,1.23,16354.22,1.94,45.97
+Groundnut,424,1.32,7443.69,3.15,46.29
+Pulses,496,0.92,-693.36,2.9,46.57
+Maize,551,2.71,-10203.08,5.6,45.54
+Rice,690,2.43,-13137.46,1.95,46.5
+Wheat,614,2.11,-15968.82,4.63,47.85
